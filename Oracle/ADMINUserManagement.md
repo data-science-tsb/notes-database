@@ -1,4 +1,4 @@
-# User Administration
+# User Management
 
 ## Create User
 ```sql

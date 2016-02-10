@@ -2,6 +2,8 @@
 
 ## SQL (Generic)
 * Query: SELECT
+* Query: JOIN
+* Query: HAVING
 * DML: INSERT
 * DML: INSERT INTO
 * DML: SELECT INTO

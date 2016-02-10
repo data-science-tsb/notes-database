@@ -1,30 +1,28 @@
 # Notes on Databases and SQL
 
 ## SQL (Generic)
-* Query: SELECT
-* Query: JOIN
-* Query: HAVING
+* DML: SELECT
+* DML: JOIN
+* DML: HAVING
 * DML: INSERT
 * DML: INSERT INTO
 * DML: SELECT INTO
 
 ## MySQL
-* Administration: Connect to Database
-* DDL: Create a Schema
-* DDL: Create a Table
-* DDL: Alter a Table
-* Programming: Create a Function
+* ADMIN: Connect
+* ADMIN: User Management
+* DDL: Database
+* DDL: Table
+* PL: Function
 
 ## Oracle
-* Administration: Connect to Database
-* Administration: Create User
-* Administration: Create Password
-* DDL: Create Schema
-* DDL: Create Table
-* Programming: Stored Procedure
-* Programming: Function
+* ADMIN: Connect
+* ADMIN: User Management
+* DDL: Database (Tablespace)
+* DDL: Table (Schema)
+* PL: Stored Procedure
+* PL: Function
 
 ## PostgreSQL
-* Administration: Connect to Database
-* Administration: Create User
-* Administration: Create Password
+* ADMIN: Connect
+* ADMIN: User

@@ -19,12 +19,16 @@ sqlplus> ALTER USER sys IDENTIFIED BY newpassword;
 ## Alter User
 ```sql
 ALTER USER demouser DEFAULT TABLESPACE mydatabase;
+
+ALTER USER demouser QUOTA 100m ON mydatabase; 
 ```
 
 ## Grant Priveleges
 ```sql
 GRANT CREATE SESSION TO demouser;
+
 GRANT CREATE TABLE TO demouser;
+
 GRANT CREATE TRIGGER TO demouser;
 ```
 

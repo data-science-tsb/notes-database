@@ -10,4 +10,4 @@ CREATE TABLESPACE mydatabase /* replace with the database name */
 ```
 
 Sources:
-* [Oracle Docs](https://docs.oracle.com/cd/B19306_01/server.102/b14200/statements_7003.htm)
+* [Oracle: CREATE TABLESPACE](https://docs.oracle.com/cd/B19306_01/server.102/b14200/statements_7003.htm)

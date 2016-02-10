@@ -4,8 +4,6 @@
 ```sql
 CREATE USER demouser
  IDENTIFIED BY demopassword;
- 
-GRANT CREATE SESSION TO demouser;
 ```
 
 ## Resetting the User Password
@@ -17,3 +15,18 @@ sqlplus> CONNECT / as sysdba
 
 sqlplus> ALTER USER sys IDENTIFIED BY newpassword; 
 ```
+
+## Alter User
+```sql
+ALTER USER demouser DEFAULT TABLESPACE mydatabase;
+```
+
+## Grant Priveleges
+```sql
+GRANT CREATE SESSION TO demouser;
+GRANT CREATE TABLE TO demouser;
+GRANT CREATE TRIGGER TO demouser;
+```
+
+Sources:
+* [Oracle: Alter User](http://docs.oracle.com/cd/B19306_01/server.102/b14200/statements_4003.htm)

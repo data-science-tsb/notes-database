@@ -16,7 +16,7 @@
 * PL: Function
 
 ## Oracle
-* ADMIN: Connect
+* [ADMIN: Connect](Oracle/ADMINConnect.md)
 * [ADMIN: User Management](Oracle/ADMINUserManagement.md)
 * DDL: Database (Tablespace)
 * DDL: Table (Schema)

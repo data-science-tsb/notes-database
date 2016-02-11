@@ -1,6 +1,10 @@
 # Oracle Data Types
 
 ## Character
+| Type  | Example | Definition |
+| ------------- | ------------- | ------------- | 
+| CHAR  | CHAR(20)  | Fixed-length String | 
+| Content Cell  | Content Cell  | XXX |
 
 ## Numeric
 

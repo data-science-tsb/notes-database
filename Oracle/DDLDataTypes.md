@@ -13,9 +13,11 @@ Note:
 Set the **NLS_LENGTH_SEMANTICS** parameter in  the server parameter file (SPFILE) to decide whether to use **BYTE** (default) or **CHAR** for the length
 
 ## Numeric
-| Type      | Example       | Size            | Definition |
-| --------- | ------------- |---------------- | ------------- |
-| NUMBER    | NUMBER(20,1)  | 1 to 2000 bytes | Fixed-length String. Shorter Values are padded with blank |
+| Type              | Example        | Size                  | Definition |
+| ----------------- | -------------- |-----------------------| ------------- |
+| NUMBER            | NUMBER(20,1)   | 38 significant digits | Variable length. Very precise. One byte for exponent, x bytes for the significant digits |
+| BINARY_FLOAT      | BINARY_FLOAT   | 5 bytes               | Uses binary precision. 32-bit single-precision |
+| BINARY_DOUBLE     | BINARY_DOUBLE  | 9 bytes               | Uses binary precision. 64-bit double-precision |
 
 Precision (Whole Number) and Scale (Decimal Point) of Number
 

@@ -25,7 +25,7 @@
 * DDL: Table (Schema)
 * DDL: Oracle Function List
 * PL: Stored Procedure
-* PL: Custom Function
+* PL: Stored Function
 
 ## PostgreSQL
 * ADMIN: Connect

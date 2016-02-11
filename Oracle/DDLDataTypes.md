@@ -28,7 +28,7 @@ Precision (Whole Number) and Scale (Decimal Point) of Number
 | NUMBER(*,S) | 38        | S     |
 | NUMBER(P,S) | P         | S     |
 Note: 
-Using a negative scal rounds the actual data to the specified number of places to the left of the decimal point:
+Using a negative value scale rounds the actual data to the specified number of places to the left of the decimal point:
 ```
 7,456,123.89 <-- input
 NUMBER(7,-2) <-- negative scale

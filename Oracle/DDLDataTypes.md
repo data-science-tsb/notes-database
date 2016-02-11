@@ -3,11 +3,11 @@
 ## Character
 | Type      | Example       | Size            | Definition |
 | --------- | ------------- |---------------- | ------------- |
-| CHAR      | CHAR(20)      | 1 to 2000 Bytes | Fixed-length String. Shorter Values are padded with blank |
-| VARCHAR2  | VARCHAR2(20)  | 1 to 4000 Bytes | Saves space when using shorter strings. Use this over VARCHAR |
-| VARCHAR   | VARCHAR(20)   | 1 to 2000 Bytes | Occupies Space for NULL. Reserve by Oracle for future changes |
-| NCHAR     | NCHAR(20)     | 1 to 2000 Bytes | Similar to CHAR but only allows AL16UTF16 and UTF8 Unicode characters |
-| NVARCHAR2 | NVARCHAR2(20) | 1 to 4000 Bytes | Similar to VARCHAR2 but only allows AL16UTF16 and UTF8 Unicode characters |
+| CHAR      | CHAR(20)      | 1 to 2000 bytes | Fixed-length String. Shorter Values are padded with blank |
+| VARCHAR2  | VARCHAR2(20)  | 1 to 4000 bytes | Saves space when using shorter strings. Use this over VARCHAR |
+| VARCHAR   | VARCHAR(20)   | 1 to 2000 bytes | Occupies Space for NULL. Reserve by Oracle for future changes |
+| NCHAR     | NCHAR(20)     | 1 to 2000 bytes | Similar to CHAR but only allows AL16UTF16 and UTF8 Unicode characters |
+| NVARCHAR2 | NVARCHAR2(20) | 1 to 4000 bytes | Similar to VARCHAR2 but only allows AL16UTF16 and UTF8 Unicode characters |
 
 Note:
 Set the **NLS_LENGTH_SEMANTICS** parameter in  the server parameter file (SPFILE) to decide whether to use **BYTE** (default) or **CHAR** for the length

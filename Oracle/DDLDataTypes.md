@@ -1,10 +1,10 @@
 # Oracle Data Types
 
 ## Character
-| Type  | Example | Definition |
-| ------------- | ------------- | ------------- | 
-| CHAR  | CHAR(20)  | Fixed-length String | 
-| Content Cell  | Content Cell  | XXX |
+| Type  | Example | Size | Definition |
+| ------------- | ------------- |------------- | ------------- | 
+| CHAR  | CHAR(20)  | 1 to 2000 Bytes | Fixed-length String. Shorter Values are padded with blank | 
+| VARCHAR2  | VARCHAR2(20)  | 1 to 4000 Bytes | Saves space when using shorter strings | 
 
 ## Numeric
 

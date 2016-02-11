@@ -23,17 +23,6 @@ ALTER USER demouser DEFAULT TABLESPACE mydatabase;
 ALTER USER demouser QUOTA 100m ON mydatabase; 
 ```
 
-## Grant Priveleges
-```sql
-GRANT connect TO demouser; /* Grants basic privileges to access database */ 
-
-GRANT CREATE SESSION TO demouser; /* minimum grant to allow user to connect to the database */
-
-GRANT CREATE TABLE TO demouser;
-
-GRANT CREATE TRIGGER TO demouser;
-```
-
 Sources:
 * [Oracle: Managing Users](https://docs.oracle.com/cd/B10501_01/server.920/a96521/users.htm)
 * [Oracle: Alter User](http://docs.oracle.com/cd/B19306_01/server.102/b14200/statements_4003.htm)

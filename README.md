@@ -19,7 +19,8 @@
 * [ADMIN: Connect](Oracle/ADMINConnect.md)
 * [ADMIN: User Management](Oracle/ADMINUserManagement.md)
 * [ADMIN: User Privileges (Grant and Revoke)](Oracle/ADMINUserPrivileges.md)
-* ADMIN: User Roles
+* [ADMIN: User Roles](Oracle/ADMINUserRoles.md)
+* ADMIN: Auditing
 * DDL: Database (Tablespace)
 * DDL: Table (Schema)
 * DDL: Oracle Function List

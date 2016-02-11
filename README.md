@@ -1,6 +1,7 @@
 # Notes on Databases and SQL
 
 ## SQL (Generic)
+* DDL: CREATE TABLE
 * DML: SELECT
 * DML: JOIN
 * DML: HAVING
@@ -22,7 +23,7 @@
 * [ADMIN: User Roles](Oracle/ADMINUserRoles.md)
 * ADMIN: Auditing
 * [DDL: Database (Tablespace)](Oracle/DMLDatabase.md)
-* DDL: Table (Schema)
+* DDL: Oracle Data Types
 * DDL: Oracle Function List
 * PL: Stored Procedure
 * PL: Stored Function

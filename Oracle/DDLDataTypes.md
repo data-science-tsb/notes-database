@@ -13,6 +13,25 @@ Note:
 Set the **NLS_LENGTH_SEMANTICS** parameter in  the server parameter file (SPFILE) to decide whether to use **BYTE** (default) or **CHAR** for the length
 
 ## Numeric
+| Type      | Example       | Size            | Definition |
+| --------- | ------------- |---------------- | ------------- |
+| NUMBER    | NUMBER(20,1)  | 1 to 2000 bytes | Fixed-length String. Shorter Values are padded with blank |
+
+Precision (Whole Number) and Scale (Decimal Point) of Number
+
+| Declaration | Precision | Scale |
+| ----------- | ----------| ----- |
+| NUMBER      | 38        | 38    |
+| NUMBER(P)   | P         | 0     |
+| NUMBER(*,S) | 38        | S     |
+| NUMBER(P,S) | P         | S     |
+Note: 
+Using a negative scal rounds the actual data to the specified number of places to the left of the decimal point:
+```
+7,456,123.89 <-- input
+NUMBER(7,-2) <-- negative scale
+7456100      <-- stored data
+```
 
 ## Date
 

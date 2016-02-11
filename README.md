@@ -18,6 +18,7 @@
 ## Oracle
 * [ADMIN: Connect](Oracle/ADMINConnect.md)
 * [ADMIN: User Management](Oracle/ADMINUserManagement.md)
+* [ADMIN: User Privileges (Grant and Roles)]()(Oracle/ADMINUserPrivileges.md)
 * DDL: Database (Tablespace)
 * DDL: Table (Schema)
 * PL: Stored Procedure

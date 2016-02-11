@@ -25,6 +25,13 @@ REVOKE create table FROM programmer;
 GRANT programmer, role2,..., TO demouser;
 ```
 
+## Removing Roles:
+* removes it from all users
+* remove it from database
+```sql
+DROP ROLE programmer;
+```
+
 Sources:
 * [Oracle: Predefined Roles](http://docs.oracle.com/cd/B28359_01/network.111/b28531/authorization.htm#i1007401)
 * [YouTube: Roles in Oracle](https://www.youtube.com/watch?v=uyg5jz1I7kU)

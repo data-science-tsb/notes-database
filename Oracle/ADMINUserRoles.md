@@ -16,7 +16,8 @@ ALTER ROLE secretprogrammer NOT IDENTIFIED; /* removes the password */
 
 ## Assigning Privileges to a Role
 ```sql 
-GRANT creae table, create session, create view TO programmer;
+GRANT create table, create session, create view TO programmer;
+REVOKE create table FROM programmer;
 ```
 
 ## Granting Role to Users

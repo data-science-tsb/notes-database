@@ -4,8 +4,12 @@
 ## Basic Syntax
 ```plsql
 DECLARE
+  -- this is a comment
   message VARCHAR2(20):= 'Hello World';
 BEGIN
+  /*
+   * another comment
+   */
   dbms_output.put_line(message);
 END;
 ```

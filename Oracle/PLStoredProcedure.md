@@ -22,3 +22,6 @@ set serveroutput on size 30000;
 END;
 /
 ```
+
+Sources:
+* [TutorialsPoint: PL/SQL Basic Syntax](http://www.tutorialspoint.com/plsql/plsql_basic_syntax.htm)

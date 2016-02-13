@@ -1,5 +1,5 @@
 
-# Stored Procedure
+# Basics
 
 ## Basic Syntax
 ```plsql

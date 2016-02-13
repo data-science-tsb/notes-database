@@ -15,3 +15,10 @@ Note:
 ```
 set serveroutput on size 30000;
 ```
+* Add a **/** in a new line to run the procedure on SQLPLUS
+```plsql
+.
+.
+END;
+/
+```

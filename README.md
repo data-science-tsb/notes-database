@@ -26,7 +26,7 @@
 * [DDL: Database (Tablespace)](Oracle/DDLDatabase.md)
 * [DDL: Data Types](Oracle/DDLDataTypes.md)
 * DDL: Oracle Function List
-* PL: Stored Procedure
+* [PL: Stored Procedure](Oracle/PLStoredProcedure.md)
 * PL: Stored Function
 * PL: Scheduler Job
 

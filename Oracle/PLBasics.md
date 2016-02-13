@@ -1,5 +1,5 @@
 
-# Basics
+# Basic PL/SQL
 
 ## Basic Syntax
 ```plsql

@@ -22,11 +22,13 @@
 * [ADMIN: User Privileges (Grant and Revoke)](Oracle/ADMINUserPrivileges.md)
 * [ADMIN: User Roles](Oracle/ADMINUserRoles.md)
 * ADMIN: Auditing
+* ADMIN: Data Pump (Export/Import)
 * [DDL: Database (Tablespace)](Oracle/DDLDatabase.md)
 * [DDL: Data Types](Oracle/DDLDataTypes.md)
 * DDL: Oracle Function List
 * PL: Stored Procedure
 * PL: Stored Function
+* PL: Scheduler Job
 
 ## PostgreSQL
 * ADMIN: Connect

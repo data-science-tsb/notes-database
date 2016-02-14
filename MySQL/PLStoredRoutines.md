@@ -11,6 +11,9 @@ END
 * Cannot use SQL statements that return result sets
 * Cannot use SQl statements that perform transactional commits or rollbacks
 * invoked with SELECT
+```sql
+SELECT demo_function(1);
+```
 
 **Stored Procedure**
 * invoked with CALL

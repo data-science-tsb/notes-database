@@ -8,9 +8,12 @@
 
 **Stored Procedure**
 * invoked with CALL
+```sql
+CALL demo_procedure(1,2,3);
+```
 * has IN, OUT, INOUT parameters
 ```sql
-CREATE PROCEDURE demo_parameter(IN p1 INT, OUT p2 INT, INOUT p3 INT)
+CREATE PROCEDURE demo_procedure(IN p1 INT, OUT p2 INT, INOUT p3 INT)
 BEGIN
   SELECT first_name INTO p2 FROM person WHERE id = p1 ; -- IN and OUT 
   SELECT first_name INTO p3 FROM PERSON WHERE id = p3; -- INOUT 

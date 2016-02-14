@@ -2,6 +2,12 @@
 
 **Stored Function**
 * A return value is REQUIRED
+```sql
+CREATE FUNCTION demo_function(number INT) RETURNS INT -- a return statement is required
+BEGIN
+  RETURN number * number;
+END
+```
 * Cannot use SQL statements that return result sets
 * Cannot use SQl statements that perform transactional commits or rollbacks
 * invoked with SELECT

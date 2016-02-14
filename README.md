@@ -15,7 +15,7 @@
 * DDL: Database
 * DDL: Table
 * DML: Transactions
-* PL: Stored Routines (Procedures and Functions)
+* [PL: Stored Routines (Procedures and Functions)](MySQL/PLStoredRoutines.md)
 
 ## Oracle
 * [ADMIN: Connect](Oracle/ADMINConnect.md)

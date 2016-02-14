@@ -14,7 +14,8 @@
 * ADMIN: User Management
 * DDL: Database
 * DDL: Table
-* PL: Function
+* DML: Transactions
+* PL: Creating Stored Procedures and Functions
 
 ## Oracle
 * [ADMIN: Connect](Oracle/ADMINConnect.md)

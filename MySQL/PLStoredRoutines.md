@@ -8,6 +8,14 @@
 
 **Stored Procedure**
 * invoked with CALL
+* has IN, OUT, INOUT parameters
+```sql
+CREATE PROCEDURE demo_parameter(IN p1 INT, OUT p2 INT, INOUT p3 INT)
+BEGIN
+  SELECT first_name INTO p2 FROM person WHERE id = p1 ; -- IN and OUT 
+  SELECT first_name INTO p3 FROM PERSON WHERE id = p3; -- INOUT 
+END
+```
 
 Note:
 * Because you are executing a statement with the regular **;** delimiter, you have to declare a different delimiter when you are using the command line to create a stored procedure:

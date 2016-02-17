@@ -3,7 +3,7 @@
 ## SQL (Generic)
 * DDL: CREATE TABLE
 * DML: SELECT
-* DML: JOIN
+* [DML: JOIN](Generic/JOIN.md)
 * DML: HAVING
 * DML: INSERT
 * DML: INSERT INTO

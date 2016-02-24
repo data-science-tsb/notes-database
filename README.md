@@ -1,4 +1,4 @@
-# SQL Databases
+# Relational Databases: PL & SQL
 
 #### SQL (Generic)
 * DDL: CREATE TABLE

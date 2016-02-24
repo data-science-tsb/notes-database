@@ -41,3 +41,5 @@
 
 #### Mongo
 * GeoJSON: Geospatial Index and Queries
+
+#### Redis

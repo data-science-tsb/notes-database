@@ -10,10 +10,9 @@ db.getCollections("MyCollections").insertOne(new Document());
 
 #### Java Driver
 ```java
-MongoClient mongoClient = new MongoClient();
-MongoDatabase db = mongoClient.getDatabase("test");
+Document myCollection = new Document("name", "test" + System.currentTimeMillis()).append("age", 1);
 
-db.getCollections("MyCollections").insertOne(new Document());
+db.getCollection("MyCollection").insertOne(myCollection);
 ```
 
 #### Morphia
@@ -24,4 +23,5 @@ MongoDatabase db = mongoClient.getDatabase("test");
 db.getCollections("MyCollections").insertOne(new Document());
 ```
 
-Reference: [Basics](/MongoDB/Basics.md)
+##### References: 
+- [CollectionsBasics](/MongoDB/Basics.md)

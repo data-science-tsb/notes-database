@@ -40,7 +40,10 @@
 # NOSQL Databases
 
 #### Mongo
-* [ADMIN: Basics](MongoDB/Basics.md)
+* [Basics](MongoDB/Basics.md)
+* [Collections](MongoDB/Collections.md)
+* [Inserting Data](MongoDB/InsertingData.md)
+* [Querying Data](MongoDB/QueryingData.md)
 * GeoJSON: Geospatial Index and Queries
 
 #### Redis

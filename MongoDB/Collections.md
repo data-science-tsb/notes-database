@@ -5,6 +5,11 @@
 db.createCollection("MyCollection");
 ```
 
+#### Adding an Index
+```javascript
+db.MyCollection.ensureIndex({indexName: 1});
+```
+
 #### Inserting an Object
 ```javascript
 db.MyCollection.insert({name: "Test", age: 1});

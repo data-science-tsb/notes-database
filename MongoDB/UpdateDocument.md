@@ -12,7 +12,8 @@ var result = db.MyCollection.update(
 	}
 );
 
-print(result); //WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+print(result); 
+//WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
 ```
 - Java Driver
 ```java
@@ -22,7 +23,8 @@ UpdateResult result = db.getCollection("MyCollection").updateOne(
 		new Document("age", 200))
 );
 		
-System.out.println(result); //AcknowledgedUpdateResult{matchedCount=1, modifiedCount=1, upsertedId=null}
+System.out.println(result); 
+//AcknowledgedUpdateResult{matchedCount=1, modifiedCount=1, upsertedId=null}
 ```
 - Morphia
 ```java
@@ -30,6 +32,7 @@ Query<MyCollection> query = ds.createQuery(MyCollection.class).field("age").equa
 UpdateOperations<MyCollection> operations = ds.createUpdateOperations(MyCollection.class).set("age", 200);
 UpdateResults results = ds.update(query, operations);
 		
-System.out.printf("updated:%s modified:%s upserted:%s", results.getUpdatedCount(), results.getUpdatedExisting(), results.getInsertedCount()); //updated:0 modified:false upserted:1
+System.out.printf("updated:%s modified:%s upserted:%s", results.getUpdatedCount(), results.getUpdatedExisting(), results.getInsertedCount()); 
+//updated:0 modified:false upserted:1
 		
 ```

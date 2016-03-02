@@ -46,6 +46,7 @@
 * [Querying Document](MongoDB/QueryingData.md)
 * Update Document
 * Replace Document
+* Upsert Document
 * Remove Document
 * GeoJSON: Geospatial Index and Queries
 

@@ -36,3 +36,7 @@ System.out.printf("updated:%s modified:%s upserted:%s", results.getUpdatedCount(
 //updated:0 modified:false upserted:1
 		
 ```
+
+#### Update Multiple Documents
+
+#### Upsert

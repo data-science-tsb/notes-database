@@ -18,11 +18,16 @@ mongo admin
 ```
 - create the first user
 ```
-db.createUser({"user":"usernamexxxx", "pwd":"passwordxxxx", "roles":[{"role":"dbOwner", "db":"kwl"}]});
+db.createUser({"user":"usernamexxxx", "pwd":"passwordxxxx", "roles":[{"role":"dbOwner", "db":"mydatabase"}]});
 ```
 - shutdown the server and change the config file
 ```
 #auth=true
 dbpath=C:\data
 logpath=C:\log\mongo.log
+```
+
+#### Logging In
+```
+mongo localhost:27017/mydatabase --username usernamexxxx --password passwordxxxx --authenticationDatabase admin
 ```

@@ -41,9 +41,12 @@
 
 #### Mongo
 * [Basics](MongoDB/Basics.md)
-* [Collections](MongoDB/Collections.md)
-* [Inserting Data](MongoDB/InsertingData.md)
-* [Querying Data](MongoDB/QueryingData.md)
+* [Collection of Documents](MongoDB/Collections.md)
+* [Inserting Document](MongoDB/InsertingData.md)
+* [Querying Document](MongoDB/QueryingData.md)
+* Update Document
+* Replace Document
+* Remove Document
 * GeoJSON: Geospatial Index and Queries
 
 #### Redis

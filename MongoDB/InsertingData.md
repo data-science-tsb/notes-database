@@ -2,10 +2,10 @@
 
 #### Native
 ```javascript
-MongoClient mongoClient = new MongoClient();
-MongoDatabase db = mongoClient.getDatabase("test");
-
-db.getCollections("MyCollections").insertOne(new Document());
+db.MyCollection.insert({
+  name: "test",
+  age: 1
+});
 ```
 
 #### Java Driver
@@ -17,10 +17,11 @@ db.getCollection("MyCollection").insertOne(myCollection);
 
 #### Morphia
 ```java
-MongoClient mongoClient = new MongoClient();
-MongoDatabase db = mongoClient.getDatabase("test");
-
-db.getCollections("MyCollections").insertOne(new Document());
+MyCollection myCollection = new MyCollection();
+myCollection.setName("morphiename2");
+myCollection.setAge(10019);
+		
+ds.save(myCollection);
 ```
 
 ##### References: 

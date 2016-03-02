@@ -20,3 +20,10 @@ MorphiaIterator<MyCollection, MyCollection> iterator = query.fetch();
 ```javascript
 db.MyCollection.find({age:1}); //return all objects in MyCollection WHERE age == 1
 ```
+- Java Driver
+```java
+FindIterable<Document> iterable = db.getCollection("MyCollection").find(new Document("age", 10019));
+
+//using Filters.eq helper method
+FindIterable<Document> iterable = db.getCollection("MyCollection").find(Filters.eq("age", 10019));
+```

@@ -39,4 +39,6 @@ System.out.printf("updated:%s modified:%s upserted:%s", results.getUpdatedCount(
 
 #### Update Multiple Documents
 
-#### Upsert
+#### Upsert Document
+
+#### Replace Document

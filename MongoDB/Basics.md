@@ -1,13 +1,17 @@
 # MongoDB Basics
 
 ####  Local server: Initial Setup
+- install from the command line
+```
+msiexec.exe /q /i mongodb-win32-x86_64-2.6.11-signed.msi INSTALLLOCATION="C:\mongodb" ADDLOCAL="all"
+```
 - create a config and disable authentication: mongo.conf
 ```
 #auth=true
 dbpath=C:\data
 logpath=C:\log\mongo.log
 ```
-- create the log and data directory as desicribed in the config file
+- create the log and data directory as desicribed in the config file (otherwise mongo throws an error on startup)
 - start server using the config
 ```
 mongod --config C:\mongodb\mongo.conf

@@ -46,6 +46,7 @@
 * [Querying Document](MongoDB/QueryingData.md)
 * Update Document
 * Remove Document
+* Embedded Document
 * GeoJSON: Geospatial Index and Queries
 
 #### Redis

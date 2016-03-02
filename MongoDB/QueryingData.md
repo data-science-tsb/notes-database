@@ -27,3 +27,8 @@ FindIterable<Document> iterable = db.getCollection("MyCollection").find(new Docu
 //using Filters.eq helper method
 FindIterable<Document> iterable = db.getCollection("MyCollection").find(Filters.eq("age", 10019));
 ```
+
+#### References
+- [Querying: Mongo](https://docs.mongodb.org/v2.6/tutorial/query-documents/)
+- [Querying: Java Driver](https://docs.mongodb.org/getting-started/java/query/)
+- [Querying: Morphia](http://mongodb.github.io/morphia/1.0/getting-started/quick-tour/)

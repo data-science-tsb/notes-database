@@ -1,4 +1,4 @@
-# Collections
+# MongoDB: Collections
 
 #### Create
 ```javascript

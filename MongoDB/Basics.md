@@ -46,3 +46,22 @@ MongoDatabase db = mongoClient.getDatabase("mydatabase");
 
 mongoClient.close();
 ```
+- Morphia
+```java
+@Entity
+public class MyCollection {
+
+	@Id
+	private ObjectId id;
+
+	private String name;
+	private int age;
+	
+	//getters/setters...
+
+}
+
+MongoClient client = ...
+Morphia morphia = new Morphia(); // takes care of the mapping and stuffs
+Datastore ds = morphia.createDatastore(client, "mydatabase");
+```

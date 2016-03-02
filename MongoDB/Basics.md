@@ -17,7 +17,7 @@ mongod --config C:\mongodb\mongo.conf
 mongo admin
 ```
 - create the first user
-```
+```javascript
 db.createUser({"user":"usernamexxxx", "pwd":"passwordxxxx", "roles":[{"role":"dbOwner", "db":"mydatabase"}]});
 ```
 - shutdown the server and change the config file

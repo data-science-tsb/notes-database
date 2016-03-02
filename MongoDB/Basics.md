@@ -31,7 +31,7 @@ dbpath=C:\data
 logpath=C:\log\mongo.log
 ```
 
-#### Logging In
+#### Connecting to the Database
 - From Command line
 ```
 mongo localhost:27017/mydatabase --username usernamexxxx --password passwordxxxx --authenticationDatabase admin

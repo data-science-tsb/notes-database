@@ -24,4 +24,4 @@ db.getCollections("MyCollections").insertOne(new Document());
 ```
 
 ##### References: 
-- [CollectionsBasics](/MongoDB/Basics.md)
+- [Basics: Connecting to Database](/MongoDB/Basics.md)

@@ -28,6 +28,17 @@ logpath=C:\log\mongo.log
 ```
 
 #### Logging In
+- From Command line
 ```
 mongo localhost:27017/mydatabase --username usernamexxxx --password passwordxxxx --authenticationDatabase admin
+```
+- Java Driver
+```java
+MongoCredential credential = MongoCredential.createMongoCRCredential("usernamexxxx", "admin", "passwordxxxx".toCharArray());
+MongoClient mongoClient = new MongoClient(new ServerAddress("localhost"), Arrays.asList(credential));
+MongoDatabase db = mongoClient.getDatabase("mydatabase");
+
+//do your thing here...
+
+mongoClient.close();
 ```

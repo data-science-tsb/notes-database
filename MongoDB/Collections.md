@@ -19,3 +19,8 @@ db.MyCollection.insert({name: "Test", age: 1});
 ```javascript
 db.MyCollection.findOne({name:"Test"});
 ```
+
+#### Deleting/Dropping Collecion Items
+```javascript
+db.MyCollection.drop();
+```

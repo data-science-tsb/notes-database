@@ -11,4 +11,7 @@ db.MyCollection.update(
 		}
 	}
 );
+
+//returns a WriteResult object
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
 ```

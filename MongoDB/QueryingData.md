@@ -36,3 +36,4 @@ MorphiaIterator<MyCollection, MyCollection> iterator = query.field("age").equal(
 - [Querying: Mongo](https://docs.mongodb.org/v2.6/tutorial/query-documents/)
 - [Querying: Java Driver](https://docs.mongodb.org/getting-started/java/query/)
 - [Querying: Morphia](http://mongodb.github.io/morphia/1.0/getting-started/quick-tour/)
+- [Mongo: List of Query Operators](https://docs.mongodb.org/v2.6/reference/operator/query/)

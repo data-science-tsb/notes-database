@@ -48,5 +48,6 @@
 * Remove Document
 * Embedded Document
 * GeoJSON: Geospatial Index and Queries
+* [MapReduce](MongoDB/MapReduce.md)
 
 #### Redis

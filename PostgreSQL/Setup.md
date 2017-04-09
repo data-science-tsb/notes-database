@@ -1,9 +1,12 @@
 # PostgreSQL Setup
+###### Other Commands
 ```ssh
 #version check
 postgres -V
+```
 
-#psql commands:
+###### PSQL commands:
+```ssh
 #Display Users
 \du
 #List Databases

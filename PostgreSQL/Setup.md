@@ -1,4 +1,11 @@
 # PostgreSQL Setup
+```ssh
+#version check
+postgres -V
+```
+
+
+# Installation
 ## Brew
 ```ssh
 #install

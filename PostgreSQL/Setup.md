@@ -9,12 +9,16 @@ postgres -V
 ```ssh
 #Display Users
 \du
+
 #List Databases
 \l
+
 #Current Database and User
 \c
+
 #Display Tables
 \dt
+
 #Describe Tables
 \d+ <table_name>
 ```

@@ -12,6 +12,8 @@ postgres -V
 \c
 #Display Tables
 \dt
+#Describe Tables
+\d+ <table_name>
 ```
 
 

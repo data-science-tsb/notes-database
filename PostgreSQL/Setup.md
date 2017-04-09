@@ -33,3 +33,6 @@ sudo vim /var/lib/pgsql/data/pg_hba.conf
 ```ssh
 psql -d postgres -h localhost -p 5432 -U postgres -W postgres
 ```
+
+###### Resources:
+- [OSX: Getting Started](https://www.codementor.io/devops/tutorial/getting-started-postgresql-server-mac-osx)

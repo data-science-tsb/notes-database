@@ -4,8 +4,7 @@
 postgres -V
 
 #psql commands:
-
-#check users
+#Display Users
 \du
 ```
 

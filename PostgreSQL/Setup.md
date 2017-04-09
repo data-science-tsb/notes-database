@@ -2,6 +2,11 @@
 ```ssh
 #version check
 postgres -V
+
+#psql commands:
+
+#check users
+\du
 ```
 
 

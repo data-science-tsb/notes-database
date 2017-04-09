@@ -33,7 +33,7 @@
 * PL: Scheduler Job
 
 #### PostgreSQL
-* ADMIN: Connect
+* [Setup](PostgreSQL/Setup.md)
 * ADMIN: User
 * [PL: pgSQL](http://www.postgresql.org/docs/current/static/plpgsql.html)
 

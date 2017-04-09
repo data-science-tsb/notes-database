@@ -6,6 +6,12 @@ postgres -V
 #psql commands:
 #Display Users
 \du
+#List Databases
+\l
+#Current Database and User
+\c
+#Display Tables
+\dt
 ```
 
 
@@ -20,7 +26,7 @@ brew install postgres
 postgres -D /usr/local/var/postgres
 ```
 
-## Linux
+## Yum
 ```ssh
 sudo yum install postgresql postgresql-server postgresql-devel postgresql-contrib postgresql-docs
 

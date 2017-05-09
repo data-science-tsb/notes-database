@@ -36,22 +36,25 @@ postgres -D /usr/local/var/postgres
 ```
 
 ## Yum
+[Source](https://github.com/snowplow/snowplow/wiki/Setting-up-PostgreSQL)
 ```ssh
 sudo yum install postgresql postgresql-server postgresql-devel postgresql-contrib postgresql-docs
+sudo service postgresql initdb
+```
 
-#
-# initialize the database
-# https://www.postgresql.org/docs/9.6/static/creating-cluster.html
-#
-#mkdir /var/lib/pgsql/data
-#chown ec2-user /var/lib/pgsql/data
-#service postgresql initdb
-postgresql-setup initdb
+- Edit your pg_hba.conf file:
+```ssh
+sudo vi /var/lib/pgsql9/data/pg_hba.conf
 
-#
-# start the database
-# https://www.postgresql.org/docs/9.6/static/server-start.html
-postgres -D postgres
+local   all             all                                     trust
+host    all             postgres      0.0.0.0/0                 md5
+```
+- Edit postgresql.conf
+```ssh
+sudo vi /var/lib/pgsql9/data/postgresql.conf
+
+listen_addresses='*'
+port = 5432
 ```
 
 ## Connecting to a PostgreSQL Database

@@ -39,9 +39,16 @@ postgres -D /usr/local/var/postgres
 ```ssh
 sudo yum install postgresql postgresql-server postgresql-devel postgresql-contrib postgresql-docs
 
-sudo service postgresql initdb
-sudo vim /var/lib/pgsql/data/pg_hba.conf
-sudo service posgresql start
+#
+# initialize the database
+# https://www.postgresql.org/docs/9.6/static/creating-cluster.html
+#
+initdb -D postgres
+
+#
+# start the database
+# https://www.postgresql.org/docs/9.6/static/server-start.html
+postgres -D postgres
 ```
 
 ## Connecting to a PostgreSQL Database

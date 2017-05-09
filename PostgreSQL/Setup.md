@@ -47,7 +47,8 @@ sudo service postgresql initdb
 sudo vi /var/lib/pgsql9/data/pg_hba.conf
 
 local   all             all                                     trust
-host    all             postgres      0.0.0.0/0                 md5
+host    all             all           0.0.0.0/0                 md5
+host    all             all             ::1/128                 md5
 ```
 - Edit postgresql.conf
 ```ssh
@@ -62,5 +63,24 @@ port = 5432
 psql -d postgres -h localhost -p 5432 -U postgres -W postgres
 ```
 
+create user
+```sql
+-- postgres started using the term 'role' around version 9.x
+CREATE ROLE tradebutler PASSWORD 'tradebutlersecret'
+   VALID UNTIL 'infinity';
+```
+
+```sql
+-- in case the default user create has no login permission
+ALTER ROLE tradebutler WITH LOGIN;
+create database
+DROP DATABASE tradebutler_data_core_dev;
+
+CREATE DATABASE tradebutler_data_core_dev
+  WITH ENCODING='UTF8'
+       OWNER=tradebutler
+       CONNECTION LIMIT=-1
+       TABLESPACE=pg_default;
+```
 ###### Resources:
 - [OSX: Getting Started](https://www.codementor.io/devops/tutorial/getting-started-postgresql-server-mac-osx)

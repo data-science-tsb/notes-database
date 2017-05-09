@@ -41,6 +41,7 @@ sudo yum install postgresql postgresql-server postgresql-devel postgresql-contri
 
 sudo service postgresql initdb
 sudo vim /var/lib/pgsql/data/pg_hba.conf
+sudo service posgresql start
 ```
 
 ## Connecting to a PostgreSQL Database

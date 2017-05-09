@@ -43,7 +43,10 @@ sudo yum install postgresql postgresql-server postgresql-devel postgresql-contri
 # initialize the database
 # https://www.postgresql.org/docs/9.6/static/creating-cluster.html
 #
-initdb -D postgres
+#mkdir /var/lib/pgsql/data
+#chown ec2-user /var/lib/pgsql/data
+#service postgresql initdb
+postgresql-setup initdb
 
 #
 # start the database

@@ -57,6 +57,10 @@ sudo vi /var/lib/pgsql9/data/postgresql.conf
 listen_addresses='*'
 port = 5432
 ```
+- start
+```ssh
+sudo service postgresql start
+```
 
 ## Connecting to a PostgreSQL Database
 ```ssh

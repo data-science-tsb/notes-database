@@ -46,6 +46,9 @@ sudo service postgresql initdb
 ```ssh
 sudo vi /var/lib/pgsql9/data/pg_hba.conf
 
+#ubuntu
+sudo vi /etc/postgresql/9.5/main/pg_hba.conf
+
 local   all             all                                     trust
 host    all             all           0.0.0.0/0                 md5
 host    all             all             ::1/128                 md5
@@ -53,6 +56,9 @@ host    all             all             ::1/128                 md5
 - Edit postgresql.conf
 ```ssh
 sudo vi /var/lib/pgsql9/data/postgresql.conf
+
+#ubuntu
+sudo vi /etc/postgresql/9.5/main/postgresql.conf
 
 listen_addresses='*'
 port = 5432

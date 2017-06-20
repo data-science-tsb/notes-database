@@ -21,6 +21,9 @@ postgres -V
 
 #Describe Tables
 \d+ <table_name>
+
+# Connect to database
+\c <db_name>
 ```
 
 

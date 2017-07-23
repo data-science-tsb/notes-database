@@ -24,3 +24,8 @@ sudo apt-get install -y mongodb-org
 |mongodb-org-mongos	| Contains the mongos daemon.
 |mongodb-org-shell	| Contains the mongo shell.
 |mongodb-org-tools	| Contains the following MongoDB tools: mongoimport bsondump, mongodump, mongoexport, mongofiles, mongooplog, mongoperf, mongorestore, mongostat, and mongotop.
+
+## Running MongoDB
+
+###### Resources:
+- [Running MongoDB](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/#run-mongodb-community-edition)

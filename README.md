@@ -72,4 +72,6 @@ Transactional, Scalable, Fully-managed PaaS, Document-based storage.
 - indexes are required for queries
 - replicated
 - hierchical keys
+- get, set, and ancestor queries are strongly consistent
+- index queries are eventually consistent
 

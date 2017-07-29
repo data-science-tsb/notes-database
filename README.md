@@ -74,4 +74,6 @@ Transactional, Scalable, Fully-managed PaaS, Document-based storage.
 - hierchical keys
 - get, set, and ancestor queries are strongly consistent
 - index queries are eventually consistent
+###### Third-party Integration
+- [Objectify](https://github.com/objectify/objectify): Java ORM 
 

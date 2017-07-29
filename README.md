@@ -1,6 +1,6 @@
 # Relational Databases: PL & SQL
 
-#### SQL (Generic)
+## SQL (Generic)
 * DDL: CREATE TABLE
 * DML: SELECT
 * [DML: JOIN](Generic/JOIN.md)
@@ -9,7 +9,7 @@
 * DML: INSERT INTO
 * DML: SELECT INTO
 
-#### MySQL
+## MySQL
 * ADMIN: Connect
 * ADMIN: User Management
 * DDL: Database
@@ -17,7 +17,7 @@
 * DML: Transactions
 * [PL: Stored Routines (Procedures and Functions)](MySQL/PLStoredRoutines.md)
 
-#### Oracle
+## Oracle
 * [ADMIN: Connect](Oracle/ADMINConnect.md)
 * [ADMIN: User Management](Oracle/ADMINUserManagement.md)
 * [ADMIN: User Privileges (Grant and Revoke)](Oracle/ADMINUserPrivileges.md)
@@ -32,14 +32,14 @@
 * PL: Stored Function
 * PL: Scheduler Job
 
-#### PostgreSQL
+## PostgreSQL
 * [Setup](PostgreSQL/Setup.md)
 * ADMIN: User
 * [PL: pgSQL](http://www.postgresql.org/docs/current/static/plpgsql.html)
 
 # NOSQL Databases
 
-#### Mongo
+## Mongo
 A document storage.
 
 * [Basics](MongoDB/Basics.md)
@@ -52,21 +52,21 @@ A document storage.
 * GeoJSON: Geospatial Index and Queries
 * [MapReduce](MongoDB/MapReduce.md)
 
-#### Redis
+## Redis
 A memory-based key-value store.
 
-#### Couchbase
+## Couchbase
 Another memory-based storage.
 
-#### Accumulo
+## Accumulo
 Another BigTable implementation. Sparse, distributed, sorted, and multi-dimensional map.
 ###### Noted Features:
 - field-level visibility
 - internally stores fields in a key-value format, and blank fields are not stored
 
-#### DynamoDB
+## DynamoDB
 
-#### Google Cloud DataStore
+## Google Cloud DataStore
 Transactional, Scalable, No-Ops, Document-based storage.
 ###### Noted Features:
 - indexes are required for queries

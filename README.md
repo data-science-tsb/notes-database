@@ -62,10 +62,14 @@ Another memory-based storage.
 Another BigTable implementation. Sparse, distributed, sorted, and multi-dimensional map.
 ###### Noted Features:
 - field-level visibility
+- internally stores fields in a key-value format, and blank fields are not stored
 
 #### DynamoDB
 
 #### Google Cloud DataStore
 Transactional, Scalable, No-Ops, Document-based storage.
-
+###### Noted Features:
+- indexes are required for queries
+- replicated
+- hierchical keys
 

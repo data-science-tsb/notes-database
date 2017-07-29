@@ -60,9 +60,12 @@ Another memory-based storage.
 
 #### Accumulo
 Another BigTable implementation. Sparse, distributed, sorted, and multi-dimensional map.
+###### Noted Features:
+- field-level visibility
 
 #### DynamoDB
 
-#### Google App Engine DataStore
+#### Google Cloud DataStore
+Document-based database
 
 

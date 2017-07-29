@@ -66,6 +66,6 @@ Another BigTable implementation. Sparse, distributed, sorted, and multi-dimensio
 #### DynamoDB
 
 #### Google Cloud DataStore
-Document-based database
+Transactional, Scalable, No-Ops, Document-based storage.
 
 

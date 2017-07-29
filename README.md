@@ -40,6 +40,8 @@
 # NOSQL Databases
 
 #### Mongo
+A document storage.
+
 * [Basics](MongoDB/Basics.md)
 * [Collection of Documents](MongoDB/Collections.md)
 * [Inserting Document](MongoDB/InsertingData.md)
@@ -51,3 +53,16 @@
 * [MapReduce](MongoDB/MapReduce.md)
 
 #### Redis
+A memory-based key-value store.
+
+#### Couchbase
+Another memory-based storage.
+
+#### Accumulo
+Another BigTable implementation. Sparse, distributed, sorted, and multi-dimensional map.
+
+#### DynamoDB
+
+#### Google App Engine DataStore
+
+

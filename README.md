@@ -37,6 +37,8 @@
 * ADMIN: User
 * [PL: pgSQL](http://www.postgresql.org/docs/current/static/plpgsql.html)
 
+## Google Cloud Spanner
+
 # Document Storage
 
 ## Mongo

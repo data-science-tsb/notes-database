@@ -1,4 +1,4 @@
-# Relational Databases: PL & SQL
+# Relational Databases
 
 ## SQL (Generic)
 * DDL: CREATE TABLE
@@ -37,7 +37,7 @@
 * ADMIN: User
 * [PL: pgSQL](http://www.postgresql.org/docs/current/static/plpgsql.html)
 
-# NOSQL Databases
+# Document Storage
 
 ## Mongo
 A document storage.
@@ -52,20 +52,6 @@ A document storage.
 * GeoJSON: Geospatial Index and Queries
 * [MapReduce](MongoDB/MapReduce.md)
 
-## Redis
-A memory-based key-value store.
-
-## Couchbase
-Another memory-based storage.
-
-## Accumulo
-Another BigTable implementation. Sparse, distributed, sorted, and multi-dimensional map.
-###### Noted Features:
-- field-level visibility
-- internally stores fields in a key-value format, and blank fields are not stored
-
-## DynamoDB
-
 ## Google Cloud DataStore
 Transactional, Scalable, Fully-managed PaaS, Document-based storage.
 ###### Noted Features:
@@ -76,4 +62,29 @@ Transactional, Scalable, Fully-managed PaaS, Document-based storage.
 - index queries are eventually consistent
 ###### Third-party Integration
 - [Objectify](https://github.com/objectify/objectify): Java ORM 
+
+# Memory-Based Storage
+## Redis
+A memory-based key-value store.
+
+## Couchbase
+Another memory-based storage.
+
+# Bigtable
+
+## Hbase
+
+## Google Bigtable
+
+## Accumulo
+Another BigTable implementation. Sparse, distributed, sorted, and multi-dimensional map.
+###### Noted Features:
+- field-level visibility
+- internally stores fields in a key-value format, and blank fields are not stored
+
+## DynamoDB
+
+## Cassandra
+
+
 

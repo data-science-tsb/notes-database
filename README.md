@@ -75,8 +75,10 @@ Another memory-based storage.
 # Bigtable
 
 ## Hbase
+A columnar key-value store. A "row" is actually a sequence of actual rows sharing the same ID. Good for sparse data since unpopulated columns are not occupying space. 
 
 ## Google Bigtable
+HBase service for Google Cloud
 
 ## Accumulo
 Another BigTable implementation. Sparse, distributed, sorted, and multi-dimensional map.

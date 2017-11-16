@@ -78,7 +78,7 @@ Another memory-based storage.
 A columnar key-value store. A "row" is actually a sequence of actual rows sharing the same ID. Good for sparse data since unpopulated columns are not occupying space. 
 
 ## Google Bigtable
-HBase service for Google Cloud
+HBase service for Google Cloud. No other column is indexed aside from the row key, so choose wisely.
 
 ## Accumulo
 Another BigTable implementation. Sparse, distributed, sorted, and multi-dimensional map.

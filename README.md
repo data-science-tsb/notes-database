@@ -42,7 +42,7 @@
 # Document Storage
 
 ## Mongo
-A document storage.
+A document storage capable of scaling horizontally but is infamous for its questionable durability. 
 
 * [Basics](MongoDB/Basics.md)
 * [Collection of Documents](MongoDB/Collections.md)
